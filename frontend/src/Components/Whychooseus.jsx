@@ -11,29 +11,29 @@ function Whychooseus(){
   <h1 class="text-center lg:text-4xl lg:leading-20 font-bold pt-10 sm: text-xl ">Why choose Progrentures for Internship?</h1>
 
   <div class= " flex flex-col gap-3">
-  <div class="flex flex-row justify-center gap-4 text-2xl pt-10">
-    <div class=" bg-[#DDE1F1] px-15 py-5 rounded-xl">PRS Internship Registration</div>
-    <div class="bg-[#DDE1F1] px-15 py-5 rounded-xl">PRS Internship Registration</div>
+  <div class="flex md:flex-row justify-center  sm:px-6 flex-col gap-4 md:text-2xl pt-10">
+    <div class="bg-[#DDE1F1] py-3 text-center rounded-xl mx-5 md:mx-0 md:px-15 md:py-5 ">PRS Internship Registration</div>
+    <div class="bg-[#DDE1F1] py-3 text-center rounded-xl mx-5 md:mx-0 md:px-15 md:py-5">PRS Internship Registration</div>
   </div>
 
-  <div class="flex flex-row justify-center gap-4 text-2xl">
-    <div class=" bg-[#DDE1F1] px-15 py-5 rounded-xl">PRS Internship Registration</div>
-    <div class="bg-[#DDE1F1] px-15 py-5 rounded-xl">PRS Internship Registration</div>
+  <div class="flex md:flex-row justify-center  sm:px-6 flex-col gap-4 md:text-2xl ">
+    <div class="bg-[#DDE1F1] py-3 text-center rounded-xl mx-5 md:mx-0 md:px-15 md:py-5 ">PRS Internship Registration</div>
+    <div class="bg-[#DDE1F1] py-3 text-center rounded-xl mx-5 md:mx-0 md:px-15 md:py-5">PRS Internship Registration</div>
   </div>
 
-  <div class="flex flex-row justify-center gap-4 text-2xl">
-    <div class=" bg-[#DDE1F1] px-15 py-5 rounded-xl">PRS Internship Registration</div>
-    <div class="bg-[#DDE1F1] px-15 py-5 rounded-xl">PRS Internship Registration</div>
+  <div class="flex md:flex-row justify-center  sm:px-6 flex-col gap-4 md:text-2xl ">
+    <div class="bg-[#DDE1F1] py-3 text-center rounded-xl mx-5 md:mx-0 md:px-15 md:py-5 ">PRS Internship Registration</div>
+    <div class="bg-[#DDE1F1] py-3 text-center rounded-xl mx-5 md:mx-0 md:px-15 md:py-5">PRS Internship Registration</div>
   </div>
 
-  <div class="flex flex-row justify-center gap-4 text-2xl">
-    <div class=" bg-[#DDE1F1] px-15 py-5 rounded-xl">PRS Internship Registration</div>
-    <div class="bg-[#DDE1F1] px-15 py-5 rounded-xl">PRS Internship Registration</div>
+  <div class="flex md:flex-row justify-center  sm:px-6 flex-col gap-4 md:text-2xl ">
+    <div class="bg-[#DDE1F1] py-3 text-center rounded-xl mx-5 md:mx-0 md:px-15 md:py-5 ">PRS Internship Registration</div>
+    <div class="bg-[#DDE1F1] py-3 text-center rounded-xl mx-5 md:mx-0 md:px-15 md:py-5">PRS Internship Registration</div>
   </div>
 
-  <div class="flex flex-row justify-center gap-4 text-2xl">
-    <div class=" bg-[#DDE1F1] px-15 py-5 rounded-xl">PRS Internship Registration</div>
-    <div class="bg-[#DDE1F1] px-15 py-5 rounded-xl">PRS Internship Registration</div>
+  <div class="flex md:flex-row justify-center  sm:px-6 flex-col gap-4 md:text-2xl pb-5 md:pb-6">
+    <div class="bg-[#DDE1F1] py-3 text-center rounded-xl mx-5 md:mx-0 md:px-15 md:py-5 ">PRS Internship Registration</div>
+    <div class="bg-[#DDE1F1] py-3 text-center rounded-xl mx-5 md:mx-0 md:px-15 md:py-5">PRS Internship Registration</div>
   </div>
   </div>
 
