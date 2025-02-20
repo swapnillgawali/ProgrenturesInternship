@@ -3,7 +3,7 @@ import pexelscottonbro3201696 from './pexels-cottonbro-3201696.jpg';
 
 function Whychooseus(){
     return <>
-    <div class="grid bg-[#DDE1F1] grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 px-10 py-5">
+    <div class="grid bg-[#DDE1F1] grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 px-10 py-25">
   <div class=" lg:h-150 rounded-lg bg-white  overflow-hidden">
     <img class="rounded-lg h-full w-full object-cover" src={pexelscottonbro3201696} alt="" />
   </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Card({item}){
-    console.log(item)
+    // console.log(item)
     return <>
     <div class="xl:w-1/4 md:w-1/2 p-4">
         <div class="bg-white p-6 rounded-lg">

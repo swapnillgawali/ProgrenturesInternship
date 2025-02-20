@@ -1,22 +1,11 @@
-import './App.css'
-import Navbar from './Components/Navbar';
-import Herosection from './Components/herosection';
-import Whychooseus from './Components/Whychooseus';
-import Prepareforsuccess from './Components/Prepareforsuccess';
-import Internshipdomain from './Components/Internshipdomain';
-import Cta from './Components/Cta';
-
+import "./App.css";
+import HomePage from "./Components/HomePage";
 function App() {
   return (
     <>
-    <Navbar></Navbar>
-    <Herosection></Herosection>
-    <Whychooseus></Whychooseus>
-    <Prepareforsuccess></Prepareforsuccess>
-    <Internshipdomain></Internshipdomain>
-    <Cta></Cta>
+    <HomePage></HomePage>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

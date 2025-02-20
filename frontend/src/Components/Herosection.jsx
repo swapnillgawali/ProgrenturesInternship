@@ -1,11 +1,12 @@
 import React from 'react';
+import image from './freepik__graph-background__12257.jpg';
 
 function Herosection(){
 
 return <>
 
 <section
-  class="relative bg-[url('D:\Progentures_Project\frontend\src\Components\freepik__graph-background__12257.jpg')] bg-cover"
+  class="relative bg-[url('D:\Progentures_Project\ProgrenturesInternship\frontend\src\Components\freepik__graph-background__12257.jpg')] bg-cover"
 >
   <div
     class="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
