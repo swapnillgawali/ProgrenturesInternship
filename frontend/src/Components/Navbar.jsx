@@ -5,7 +5,7 @@ import logo from './logo.png';
 function Navbar(){
     return <>
     <header className="bg-white">
-  <div className="mx-auto max-w-screen-l px-4 sm:px-6 lg:px-8 py-1">
+  <div className="mx-auto shadow-md max-w-screen-l px-4 sm:px-6 lg:px-8 py-1">
     <div className="flex h-16 items-center justify-between">
       <div className="flex-1 md:flex md:items-center md:gap-12">
         <a className="block text-teal-600" href="#">
@@ -17,13 +17,13 @@ function Navbar(){
         <nav aria-label="Global" className="hidden md:block">
           <ul className="flex items-center gap-6 text-sm">
             <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#">Home</a>
+              <a className="text-gray-500 transition hover:text-gray-500/75" href="/">Home</a>
             </li>
             <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#">About Progrentures</a>
+              <a className="text-gray-500 transition hover:text-gray-500/75" href="/AboutUs">About Progrentures</a>
             </li>
             <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#">Contact Us</a>
+              <a className="text-gray-500 transition hover:text-gray-500/75" href="/ContactUs">Contact Us</a>
             </li>
           </ul>
         </nav>
