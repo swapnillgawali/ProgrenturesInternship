@@ -2,43 +2,60 @@
     {
         "id" : 1,
         "course_name":"Web Development",
+        "internship_mode":"Online",
+        "internship_description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "plan":"Free",
         "status":"active",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "stipend":"free",
         "image":"freepik__expand__99.jpg"
     },
     {
         "id" : 2,
         "course_name":"Data Science",
+        "internship_mode":"Online",
+        "internship_description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "plan":"Free",
         "status":"inactive",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "stipend":"free",
         "image":"freepik__expand__99.jpg"
     },
     {
         "id" : 3,
         "course_name":"Android Development",
+        "internship_mode":"Online",
+        "internship_description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "plan":"Free",
         "status":"active",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "stipend":"free",
         "image":"freepik__expand__99.jpg"
     },
     {
         "id" : 4,
-        "course_name":"UI/UX Developer",
+        "internship_mode":"Online",
+        "internship_description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "plan":"Free",
         "status":"active",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "stipend":"free",
         "image":"freepik__expand__99.jpg"
     },
     {
         "id" : 5,
         "course_name":"Web Development",
+        "internship_mode":"Online",
+        "internship_description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "plan":"Free",
         "status":"active",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "stipend":"free",
         "image":"freepik__expand__99.jpg"
     },
     {
         "id" : 6,
         "course_name":"Web Development",
+        "internship_mode":"Online",
+        "internship_description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "plan":"Free",
         "status":"active",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "stipend":"free",
         "image":"freepik__expand__99.jpg"
     }
 ]

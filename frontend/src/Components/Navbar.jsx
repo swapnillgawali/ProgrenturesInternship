@@ -32,7 +32,7 @@ function Navbar(){
           <div className="sm:flex sm:gap-4">
             <a
               className="rounded-xl  bg-[#34344F] px-8 py-2.5 text-sm font-medium text-white shadow-sm"
-              href="#"
+              href="/LoginPage"
             >
               PRS Login
             </a>
@@ -40,7 +40,7 @@ function Navbar(){
             <div className="hidden sm:flex">
               <a
                 className="flex justify-center items-center gap-1 rounded-xl bg-white px-5 py-2.5 text-sm font-medium text-[#7676AA] border-2"
-                href="#"
+                href="/StudentRegister"
               >
                 <span>Register for free</span>
                 <BsArrowRight />  

@@ -62,30 +62,131 @@ function AboutUs() {
             </h1>
           </div>
 
-          <div class="relative">
-            <div class="md:w-200 sm:w-150 lg:w-300 w-100 rounded-3xl h-60 bg-[#7979AE]">
-              <p class="text-white py-2.5 px-5 md:px-10 md:text-xl md:py-6">
-                ConsultUs provides consulting services that help business owners
-                and leaders build a more valuable business. We worked with their
-                founder to build a professional, modern site that follows the
-                StoryBrand framework to clearly communicates the value it adds
-                to potential clients
+{/* ************ */}
+<section class="bg-white py-10 flex justify-center">
+  <div class="max-w-6xl w-full relative">
+    {/* <!-- Top Card --> */}
+    <div class="bg-[#2D2D52] text-white rounded-[2rem] p-6 text-center relative z-10">
+      <p class="text-base sm:text-lg py-10">
+        Progentures Solutions is an Edutech & IT Services Company that aims to bridge the gap between theoretical learning and industry skills. We provide internship programs, skill-based training, and IT solutions to help students and professionals grow.
+      </p>
+    </div>
+
+    {/* <!-- Overlapping Image --> */}
+    <div class="w-full flex justify-center relative z-20 -mt-8">
+      <img src={image1} alt="Team" class="rounded-[1rem] w-full max-w-3xl h-[300px] object-cover object-top"/>
+    </div>
+
+    {/* <!-- Bottom Card --> */}
+    <div class="bg-[#2D2D52] text-white rounded-[2rem] p-6 mt-[-2rem] text-center relative z-10">
+      <p class="text-base sm:text-lg py-10">
+        With a vision to empower young talent, we offer industry-level internships in domains like Web Development, App Development, Data Analytics, UI/UX, and more. Our internships focus on real-world projects, practical learning, and career-building experiences.
+      </p>
+    </div>
+  </div>
+</section>
+
+          <section class="w-full md:px-40 px-10 bg-white">
+            <div class="text-center mb-12">
+              <h2 class="text-4xl font-bold text-gray-900 mb-2">Our Vision</h2>
+              <div class="w-16 h-1 bg-gray-300 mx-auto mb-4"></div>
+              <p class="text-lg font-semibold text-gray-800 max-w-4xl mx-auto">
+                At Progentures Solutions, we aim to bridge the gap between
+                academic learning and industry needs by providing students with
+                practical, hands-on experience. Our vision is to create a world
+                where every student is career-ready, equipped with job-oriented
+                skills and real-world exposure.
               </p>
             </div>
-            <div class="absolute top-40 sm:left-25 md:w-150 left-10 sm:w-100 lg:w-250 w-80 md:h-80">
-              <img
-                class="h-full w-full object-cover rounded-3xl object-top"
-                src={image1}
-                alt=""
-              />
-            </div>
-          </div>
 
-          <div class="w-full md:px-40 px-10 mt-80">
-            <h1 class="text-black font-semibold font-Inter text-3xl md:text-6xl">
-              Our <span class="text-[#7676AA]">Misson</span>
-            </h1>
-            <div class="md:w-150 mt-2 border-3 "></div>
+            <div class="flex flex-wrap justify-center gap-30 mb-10">
+              <div class="flex w-[300px] rounded-[20px] overflow-hidden shadow-lg">
+                <div class="w-1/3 bg-gray-300 rounded-l-[20px]"></div>
+                <div class="w-2/3 bg-[#2D2D52] text-white p-4 flex flex-col justify-between">
+                  <div>
+                    <h3 class="font-semibold text-lg mb-2">Trainings</h3>
+                    <p class="text-sm leading-snug">
+                      Learn new-age skills on the go with our short-term online
+                      trainings
+                    </p>
+                  </div>
+                  <div class="mt-4 text-sm font-medium flex justify-end">
+                    Explore now →
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex w-[300px] rounded-[20px] overflow-hidden shadow-lg">
+                <div class="w-1/3 bg-gray-300 rounded-l-[20px]"></div>
+                <div class="w-2/3 bg-[#2D2D52] text-white p-4 flex flex-col justify-between">
+                  <div>
+                    <h3 class="font-semibold text-lg mb-2">Trainings</h3>
+                    <p class="text-sm leading-snug">
+                      Learn new-age skills on the go with our short-term online
+                      trainings
+                    </p>
+                  </div>
+                  <div class="mt-4 text-sm font-medium flex justify-end">
+                    Explore now →
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 mt-10 lg:grid-cols-3 gap-8 justify-items-center">
+              <div class="flex w-[300px] rounded-[20px] overflow-hidden shadow-lg">
+                <div class="w-1/3 bg-gray-300 rounded-l-[20px]"></div>
+                <div class="w-2/3 bg-[#2D2D52] text-white p-4 flex flex-col justify-between">
+                  <div>
+                    <h3 class="font-semibold text-lg mb-2">Trainings</h3>
+                    <p class="text-sm leading-snug">
+                      Learn new-age skills on the go with our short-term online
+                      trainings
+                    </p>
+                  </div>
+                  <div class="mt-4 text-sm font-medium flex justify-end">
+                    Explore now →
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex w-[300px] rounded-[20px] overflow-hidden shadow-lg">
+                <div class="w-1/3 bg-gray-300 rounded-l-[20px]"></div>
+                <div class="w-2/3 bg-[#2D2D52] text-white p-4 flex flex-col justify-between">
+                  <div>
+                    <h3 class="font-semibold text-lg mb-2">Trainings</h3>
+                    <p class="text-sm leading-snug">
+                      Learn new-age skills on the go with our short-term online
+                      trainings
+                    </p>
+                  </div>
+                  <div class="mt-4 text-sm font-medium flex justify-end">
+                    Explore now →
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex w-[300px] rounded-[20px] overflow-hidden shadow-lg">
+                <div class="w-1/3 bg-gray-300 rounded-l-[20px]"></div>
+                <div class="w-2/3 bg-[#2D2D52] text-white p-4 flex flex-col justify-between">
+                  <div>
+                    <h3 class="font-semibold text-lg mb-2">Trainings</h3>
+                    <p class="text-sm leading-snug">
+                      Learn new-age skills on the go with our short-term online
+                      trainings
+                    </p>
+                  </div>
+                  <div class="mt-4 text-sm font-medium flex justify-end">
+                    Explore now →
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="w-full md:px-40 py-10">
+            <h2 class="text-4xl font-bold text-gray-900 mb-2">Our Mission</h2>
+            <div class=" h-1 bg-gray-300 md:w-200"></div>
             <div class="flex flex-col py-10 text-xl gap-3">
               <div class="grid grid-cols-10">
                 <div class="col-span-3 font-bold">Unmatched service</div>
@@ -119,6 +220,22 @@ function AboutUs() {
               </div>
             </div>
           </div>
+          <section class=" w-full bg-[#2D2D52] text-white text-center py-10">
+            <h2 class="text-3xl font-semibold mb-4">What Sets Us Apart?</h2>
+            <p class="mb-2">
+              We go beyond traditional learning – Our focus is on real-world
+              implementation of knowledge.
+            </p>
+            <p class="mb-2">
+              We provide holistic career support – From internships to job
+              placement assistance.
+            </p>
+            <p>
+              We foster an innovation-driven ecosystem – Encouraging students to
+              think creatively, solve problems, and build projects.
+            </p>
+          </section>
+
           <div class="w-full bg-[#EFEDF5]">
             <section className="py-14">
               <div className="max-w-screen-xl mx-auto px-4 md:px-8">

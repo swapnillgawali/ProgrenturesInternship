@@ -1,22 +1,40 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Card from './Card';
-import list from "../../public/list.json";
+import axios from "axios";
 
-function Internshipdomain(){
+function Internshipdomain() {
+  const [course, setCourse] = useState([]);
 
-  const filter_data = list.filter((data)=>data.status==="active");
-    return<>
-  <section class="text-gray-600 body-font bg-[#EFEDF5]">
-  <div class="container px-5 py-15 mx-auto">
-      <div class="flex flex-row items-center justify-center lg: w-full mb-6 lg:mb-0">
-        <h1 class="text-4xl lg:text-5xl font-medium mb-10 text-gray-900">Internship Domain</h1>
+  useEffect(() => {
+    const getCourse = async () => {
+      try {
+        const res = await axios.get("http://localhost:4001/course");
+        console.log(res.data);
+        setCourse(res.data);  // ✅ fixed
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
+    getCourse();
+  }, []);
+
+  const filter_data = course.filter((data) => data.status === "active");  // ✅ fixed
+
+  return (
+    <section className="text-gray-600 body-font bg-[#EFEDF5]">
+      <div className="container px-5 py-15 mx-auto">
+        <div className="flex flex-row items-center justify-center w-full mb-6 lg:mb-0">
+          <h1 className="text-4xl lg:text-5xl font-medium mb-10 text-gray-900">Internship Domain</h1>
+        </div>
+        <div className="flex flex-wrap -m-4">
+          {filter_data.map((item) => (
+            <Card item={item} key={item.id} />
+          ))}
+        </div>
       </div>
-    <div class="flex flex-wrap -m-4">
-      {filter_data.map((item)=>(<Card item={item} key={item.id} ></Card>))}
-    </div>
-  </div>
-</section>
-    </>
+    </section>
+  );
 }
 
 export default Internshipdomain;
